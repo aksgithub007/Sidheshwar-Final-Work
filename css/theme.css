@@ -1212,6 +1212,28 @@ input:focus
 	padding-left:30px;
 
 }
+.product_inner_wrap{
+	display: block;
+	overflow: hidden;
+	width: 100%;
+    cursor: pointer;
+    margin-bottom: 30px;
+    border: 1px solid #d7d7d7;
+}
+.product_inner_wrap img{
+	width: 100%;
+	transition: all 0.6s;
+}
+.product_inner_wrap:hover img{
+	transform: scale(1.1);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+}
+.product_inner_wrap:hover {
+	border-color: #ffcc33;
+}
 /*Product Inner Pages End*/
 /******* Sidebar styles ****/
 
